@@ -10,3 +10,20 @@ Citar as referências utilizadas.
 5 - Elaborar a documentação de maneira simples e apresentar no dia da entrevista.
 
 
+
+#RESOLUÇÃO
+1 - sort -k3 log_api.log >> sort_log_api.log #executado comando para organizar pela terceira coluna, ou seja, coluna das APIs e gerar um novo arquivo chamado sort_log_api.log.
+
+2 - #comando para saber quantas apis tem. 
+	  #identifiquei que tem 7 APIs.
+	
+    $ cat sort_log_api.log | awk '{print $3}' | uniq
+    "/api/cliente/token"
+    "/api/perfil/cliente"
+    "/api/produto/baixa"
+    "/api/produto/cliente"
+    "/api/produto/leilao"
+    "/api/produto/pagamento"
+    "/api/produto/vendas"
+
+OBS: Informado ao Bebert que o case pedia para verificar as TOP10 APIs porém tem apenas 7 e ele disse que está correto, isso já era um dos desafios do teste.
