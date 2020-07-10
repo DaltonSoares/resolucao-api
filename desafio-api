@@ -1,0 +1,12 @@
+#Abaixo os desafios que preciso resolver.
+
+Fique à vontade para utilizar qualquer linguagem que achar útil. Caso não consiga concluir esta atividade por favor entregue o que for feito até a data solicitada.
+Citar as tecnologias e IDE’s, linguagem e ferramentas utilizadas para confecção da análise.
+Citar as referências utilizadas.
+1 - Gerar uma visão(dashboard/Indicador) das top10 APIS que tiveram maior tempo de resposta.
+2 - Gerar uma visão(dashboard/Indicador) das top10 APIS que tiveram mais erros.
+3 - Gerar uma visão(dashboard/Indicador) por hora de uso das APIs
+4 - Qual API trafegou mais dados no período do log enviado e como você chegou a essa conclusão.
+5 - Elaborar a documentação de maneira simples e apresentar no dia da entrevista.
+
+
