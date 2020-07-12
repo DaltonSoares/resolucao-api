@@ -27,3 +27,6 @@ Citar as referências utilizadas.
     "/api/produto/vendas"
 
 OBS: Informado ao Bebert que o case pedia para verificar as TOP10 APIs porém tem apenas 7 e ele disse que está correto, isso já era um dos desafios do teste.
+
+3 - Analisando bem a estrutura do arquivo vou tentar inserir os dados em um banco mysql. Acredito que será mais fácil para filtrar os dados.
+4 - Usando Grafana web - https://daltonsoares.grafana.net/?orgId=1
