@@ -1,0 +1,15 @@
+-- 4. Gerar uma visão(dashboard/Indicador) das top10 APIS que tiveram maior tempo de resposta.
+
+		SELECT CONCAT('API: ', API) AS 'API', COUNT(TEMPO_RESPOSTA) AS 'MS TOTAIS POR API' FROM API GROUP BY API ORDER BY 2 DESC;
+
+-- 5. Gerar uma visão(dashboard/Indicador) das top10 APIS que tiveram mais erros.
+
+		SELECT CONCAT('API: ', API) AS 'API', COUNT(API) AS 'Total de erros por API' FROM ERROS GROUP BY API ORDER BY 2 DESC;
+
+
+--6. Gerar uma visão(dashboard/Indicador) por hora de uso das APIs.
+
+
+--7. Qual API trafegou mais dados no período do log enviado e como você chegou a essa conclusão.
+
+		SELECT concat('API: ', API) AS 'API', count(BYTES) as 'BYTES TRAFEGADOS' FROM API GROUP BY API ORDER BY 2 DESC;
