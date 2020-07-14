@@ -1,0 +1,5 @@
+Utilizei shell usando alguns comandos como uniq, sort, grep, awk e sed para conseguir fazer alguns filtros e ajustes no arquivo de log enviado.
+Utilizei excel apenas para formatar em colunas e usando a função concat gerei um comando de insert em massa.
+Utilizei mysql para ser meu banco de dados onde gerei as querys e já uma visão dos resultados porém simples
+Utilizei Grafana para criar dashboards com base nas querys executadas no mysql.
+
