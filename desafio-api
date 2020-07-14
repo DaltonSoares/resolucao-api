@@ -29,4 +29,25 @@ Citar as referências utilizadas.
 OBS: Informado ao Bebert que o case pedia para verificar as TOP10 APIs porém tem apenas 7 e ele disse que está correto, isso já era um dos desafios do teste.
 
 3 - Analisando bem a estrutura do arquivo vou tentar inserir os dados em um banco mysql. Acredito que será mais fácil para filtrar os dados.
+    - Instalei o MySQL no WINDOWS.
+    
+    - Criando tabela API para inserir os dados.
+
+	CREATE TABLE API (
+	    ID  INT PRIMARY KEY AUTO_INCREMENT,
+	    DATA_OPERACAO TIMESTAMP,
+	    METODO VARCHAR(255),
+	    API VARCHAR(255),
+	    VERSAO_HTTP VARCHAR(255),
+	    COD_RESPOSTA INT,
+	    BYTES INT,
+	    TEMPO_RESPOSTA INT    
+	);
+
+	- No próprio arquivo de log enviado alterei o formato da data para AAAA-MM-DD para poder fazer o insert no banco de dados.
+	- Antes de fazer o insert formatei no Excel somente para garantir que os dados para o insert estivessem corretos.
+	
+
+
 4 - Usando Grafana web - https://daltonsoares.grafana.net/?orgId=1
+
